@@ -1,0 +1,165 @@
+2025-05-20 22:51:17.209  INFO 11044 --- [restartedMain] c.a.p.a.a.PhotoAppApiAlbumsApplication   : No active profile set, falling back to default profiles: default
+2025-05-20 22:51:23.732  WARN 11044 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2025-05-20 22:51:24.792  INFO 11044 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fce5687c-8caa-3de7-86f9-d6b89e9c58f8
+2025-05-20 22:51:25.261  INFO 11044 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$49dee6c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-05-20 22:51:29.187  INFO 11044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-20 22:51:29.302  INFO 11044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-20 22:51:29.304  INFO 11044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2025-05-20 22:51:29.338  INFO 11044 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/LENOVO/Downloads/Chaitanya/spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64/sts-4.29.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529/jre/bin/server;C:/Users/LENOVO/Downloads/Chaitanya/spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64/sts-4.29.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\apache-maven;C:\Program Files\Java\jdk-23;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\LENOVO\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-23;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1\bin;;C:\Users\LENOVO\Downloads\Chaitanya\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE;;.]
+2025-05-20 22:51:30.911  INFO 11044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-20 22:51:30.912  INFO 11044 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 13564 ms
+2025-05-20 22:51:32.095  WARN 11044 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2025-05-20 22:51:32.096  INFO 11044 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-05-20 22:51:32.210  INFO 11044 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6a3d4e85
+2025-05-20 22:51:37.673  WARN 11044 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2025-05-20 22:51:37.674  INFO 11044 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-05-20 22:51:38.438  INFO 11044 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-05-20 22:51:39.915  INFO 11044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-20 22:51:40.152  INFO 11044 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2025-05-20 22:51:40.447  INFO 11044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56151 (http) with context path ''
+2025-05-20 22:51:40.450  INFO 11044 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 56151
+2025-05-20 22:51:40.467  INFO 11044 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-05-20 22:51:40.558  INFO 11044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-05-20 22:51:40.986  INFO 11044 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-05-20 22:51:40.986  INFO 11044 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-05-20 22:51:41.792 ERROR 11044 --- [restartedMain] o.s.c.n.e.s.EurekaRegistration           : error getting CloudEurekaClient
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.eurekaClient' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.netflix.discovery.EurekaClient]: Factory method 'eurekaClient' threw exception; nested exception is java.lang.RuntimeException: Failed to initialize DiscoveryClient!
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390) ~[spring-cloud-context-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184) ~[spring-cloud-context-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:171) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:160) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:246) ~[spring-core-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:494) ~[spring-cloud-context-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$c023f63d.getEurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:39) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:82) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:143) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:131) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:166) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at com.appsdeveloperblog.photoapp.api.albums.PhotoAppApiAlbumsApplication.main(PhotoAppApiAlbumsApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.netflix.discovery.EurekaClient]: Factory method 'eurekaClient' threw exception; nested exception is java.lang.RuntimeException: Failed to initialize DiscoveryClient!
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	... 42 common frames omitted
+Caused by: java.lang.RuntimeException: Failed to initialize DiscoveryClient!
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:411) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269) ~[eureka-client-1.9.8.jar:1.9.8]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:63) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:302) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$5147dfe3.CGLIB$eurekaClient$2(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$5147dfe3$$FastClassBySpringCGLIB$$883f0951.invoke(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$5147dfe3.eurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	... 43 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError: null
+	at com.thoughtworks.xstream.XStream.setupConverters(XStream.java:989) ~[xstream-1.4.10.jar:1.4.10]
+	at com.thoughtworks.xstream.XStream.<init>(XStream.java:592) ~[xstream-1.4.10.jar:1.4.10]
+	at com.thoughtworks.xstream.XStream.<init>(XStream.java:514) ~[xstream-1.4.10.jar:1.4.10]
+	at com.thoughtworks.xstream.XStream.<init>(XStream.java:483) ~[xstream-1.4.10.jar:1.4.10]
+	at com.thoughtworks.xstream.XStream.<init>(XStream.java:429) ~[xstream-1.4.10.jar:1.4.10]
+	at com.thoughtworks.xstream.XStream.<init>(XStream.java:396) ~[xstream-1.4.10.jar:1.4.10]
+	at com.netflix.discovery.converters.XmlXStream.<init>(XmlXStream.java:51) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.converters.XmlXStream.<clinit>(XmlXStream.java:42) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.converters.wrappers.CodecWrappers$XStreamXml.<init>(CodecWrappers.java:358) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.converters.wrappers.CodecWrappers.create(CodecWrappers.java:133) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.converters.wrappers.CodecWrappers.getEncoder(CodecWrappers.java:75) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.converters.wrappers.CodecWrappers.getEncoder(CodecWrappers.java:66) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.provider.DiscoveryJerseyProvider.<init>(DiscoveryJerseyProvider.java:77) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.jersey.EurekaJerseyClientImpl$EurekaJerseyClientBuilder$MyDefaultApacheHttpClient4Config.<init>(EurekaJerseyClientImpl.java:202) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.jersey.EurekaJerseyClientImpl$EurekaJerseyClientBuilder.build(EurekaJerseyClientImpl.java:178) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory$JerseyEurekaHttpClientFactoryBuilder.buildLegacy(JerseyEurekaHttpClientFactory.java:230) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory$JerseyEurekaHttpClientFactoryBuilder.build(JerseyEurekaHttpClientFactory.java:204) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.jersey.JerseyEurekaHttpClientFactory.create(JerseyEurekaHttpClientFactory.java:161) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.jersey.Jersey1TransportClientFactories.newTransportClientFactory(Jersey1TransportClientFactories.java:59) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.DiscoveryClient.scheduleServerEndpointTask(DiscoveryClient.java:485) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:398) ~[eureka-client-1.9.8.jar:1.9.8]
+	... 54 common frames omitted
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @43bc63a3
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:388) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:364) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:312) ~[na:na]
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183) ~[na:na]
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177) ~[na:na]
+	at com.thoughtworks.xstream.core.util.Fields.locate(Fields.java:40) ~[xstream-1.4.10.jar:1.4.10]
+	at com.thoughtworks.xstream.converters.collections.TreeMapConverter.<clinit>(TreeMapConverter.java:50) ~[xstream-1.4.10.jar:1.4.10]
+	... 75 common frames omitted
+
+2025-05-20 22:51:41.816  INFO 11044 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-20 22:51:41.829  WARN 11044 --- [restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+ java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4021)
+ java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3967)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+ java.base/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-20 22:51:41.841  INFO 11044 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-05-20 22:51:41.843  INFO 11044 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ALBUMS-WS with eureka with status DOWN
+2025-05-20 22:51:41.852  INFO 11044 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-05-20 22:51:41.869 ERROR 11044 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.cloud.netflix.eureka.CloudEurekaClient.getApplications()" because the return value of "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient()" is null
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:39) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:82) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:143) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:131) ~[spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:398) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:355) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:166) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at com.appsdeveloperblog.photoapp.api.albums.PhotoAppApiAlbumsApplication.main(PhotoAppApiAlbumsApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+
